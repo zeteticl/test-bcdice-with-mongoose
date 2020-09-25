@@ -1,6 +1,12 @@
-
 //npm install --save bcdice
-const BCDice = require('bcdice').default; 
+const BCDice = require('bcdice').default;
+
+function getInfo(gameType) {
+  return BCDice.infoList.find(info => info.gameType === gameType);
+}
+
+
+console.log(getInfo('Cthulhu'))
 
 
 
@@ -22,3 +28,4 @@ MongoClient.connect(url, function(err, client) {
  
   client.close();
 });
+
