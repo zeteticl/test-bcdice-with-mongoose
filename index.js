@@ -10,6 +10,8 @@ console.log(getInfo('Cthulhu'))
 
 
 
+
+//npm install mongodb --save
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
  
