@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bcdice": "^2.0.0-rc.1",
+    "discord.js": "^12.5.1",
     "mongodb": "^3.6.2"
   }
 }
