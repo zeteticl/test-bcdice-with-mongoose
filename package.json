@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcdice": "^1.6.0",
+    "bcdice": "^2.0.0-rc.1",
     "mongodb": "^3.6.2"
   }
 }
